@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+   
+    <link rel="stylesheet" href="css of pms.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        #grad {
+        background-image: linear-gradient(to right, red , yellow);
+        }
+       
+        h5{font-size: 20px;
+            color: black;
+        padding: 2px;
+        }
+        
+        img{width: 300px;
+        padding: 10px;
+        }
+        
+        .productscontainer{width: 100%;
+            justify-content: center;
+            padding: 5px;
+            /* margin: 20px; */
+            /* height: 500px; */
+            display: flex;
+            /* border: 2px solid purple; */
+            flex-wrap: wrap;
+            align-items:center;
+        }
+        .prod{padding: 2px;
+            text-align: center;
+        }
+        @media screen and (max-width:700px) {
+            .productscontainer{
+                padding-top: 30px;
+            }
+            h5{
+                margin: 0;
+                margin-bottom: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="heading"><a href="index.html"><img src="Image/PMS heading.jpg"  alt=""></a></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="heading">
+        <h1 id="grad">PRODUCTS</h1>
+    </div>
+    
+    <div class="carousel"
+        data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell"><img src="Image/Laminar Air Flow.jpg"  alt=""></div>
+        <div class="carousel-cell"><img src="Image/Dry Incubator.jpg" alt=""></div>
+        <!-- <div class="carousel-cell"><img src="Centrifuge & Heating Block.jpg" alt=""></div> -->
+        <div class="carousel-cell"><img src="Image/Aspiration Pump.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/Microscope.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/ICSI System.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/Termometer & Gas Analyser.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/CO2 Incubator.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/Modular Lab.jpg" alt=""></div>
+        <div class="carousel-cell"><img src="Image/AHU Panel & Filters.jpg" alt=""></div>
+    </div>
+
+
+    <div class="productscontainer">
+        <div class="prod">
+            <img src="Image/Laminar Air Flow.jpg" alt=""><h5>Laminar Air Flow</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/Dry Incubator.jpg" alt=""><h5>Dry Incubator</h5>
+        </div>
+        <div class="prod">
+            <!-- <img src="Centrifuge & Heating Block.jpg" alt=""><h5>Centrifuge & Heating Block</h5> -->
+        </div>
+        <div class="prod">
+            <img src="Image/Aspiration Pump.jpg" alt=""><h5>Aspiration Pump</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/Microscope.jpg" alt=""><h5>Microscope</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/ICSI System.jpg" alt=""><h5>ICSI System</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/Termometer & Gas Analyser.jpg" alt=""><h5>Termometer & Gas Analyser</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/CO2 Incubator.jpg" alt=""><h5>CO2 Incubator</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/Modular Lab.jpg" alt=""><h5>Modular Lab</h5>
+        </div>
+        <div class="prod">
+            <img src="Image/AHU Panel & Filters.jpg" alt=""><h5>AHU Panel & Filters</h5>
+        </div>
+    </div>
+    <footer class="bottom">
+        <div class="con">
+            <a href="tel:9145371409">Contact: 9145371409 /</a>
+            <a href="tel:0251-2560627">0251-2560627</a> 
+            <!-- <img src="Contact Info.jpg"width='900px' alt=""> -->
+            
+            <p><span>Registered Office:</span> Dr.Ambedkar Nagar, Opp. Naval Depot,Vidyavihar Road, Kurla(W), Mumbai-400 070, Maharashtra, India </p>
+            
+            <p><span>Operational Office:</span> Shop No.4, Ground Floor, Preeti Apartment, OT Section, Ulhasnagar, Thane-421 003, Maharashtra, India</p>
+            <a href="mailto:pmsengineering2014@gmail.com">Email: pmsengineering2014@gmail.com</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>

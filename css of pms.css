@@ -1,0 +1,146 @@
+nav {position:sticky;
+    display: flex;
+    top:0px;
+    /* height: 50px; */
+    background-color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+footer {
+font-size: 18px;
+text-align: center;
+}
+    .con{padding: 10px;
+        background-color: rgb(240, 120, 56);
+        padding-bottom: 20px;
+    }
+   
+    footer a,nav a{color: whitesmoke;
+    padding-right:20px ;
+    text-decoration: none;}    
+    nav a:hover{
+        padding: 10px;
+        background-color:white ;
+    color: black;}
+    a{text-decoration: none;}
+    .con a{
+        color: rgb(30, 12, 169);
+        font-size: 22px;
+        padding: 0;
+        font:bold;}
+        span{font-size:20px ;
+            color: rgb(30, 12, 169);
+        font:bold;
+        /* color: rgb(30, 12, 169); */
+        }
+    #grad {
+        background-image: linear-gradient(to right, red , yellow);
+        }
+    
+    h1{ padding: 10px;
+            margin: 0%;
+            text-align: center;
+            font-size: 100px;
+           color: black;
+       }
+    
+       .carousel{background:white;
+       }
+       
+       .carousel-cell {
+        padding-top: 50px ;
+        /* width: 400px; */
+        margin: 0%;
+        /* height: 200px; */
+        /* margin-right: 10px; */
+        /* background:white; */
+        border-radius: 5px;
+        /* counter-increment: carousel-cell; */
+        }
+        .carousel-cell img{
+            /* max-width: 100%; */
+            width:400px;
+        }
+
+        @media screen and (max-width:700px) {
+            
+            header img{
+                width: 100%;
+            }
+            nav{
+                position: sticky;
+        display: flex;
+        top: 0px;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+    }
+            nav a{
+                font-size: 20px;
+                padding-right: 20px;
+            }
+            h1{font-size: 30px;}
+            /* #maincontent{font: size 18px;} */
+        .productscontainer{
+            padding-top: 50px;
+        }
+        
+        .carousel-cell{
+            padding: 0;
+        }
+            .carousel-cell img{
+                /* max-width: 100%; */
+                width:350px;
+            }
+            .content{
+                display: flex;
+                /* flex-wrap: wrap; */
+            flex-direction: column;
+            justify-content: center;
+            font-size: 20px;
+            
+            }
+            .content img{
+                width: 350px;
+                height: 350px;
+            }
+            .location {
+                font-size: 40px;
+            }
+            iframe{width: 80%;
+                height:400px;
+                /* filter: invert(100%); */
+              }
+
+        #image{
+            padding-bottom: 20px;
+        }
+        section h3{
+            font-size: 25px;
+        }
+        section ul{
+            font-size: 20px;
+            /* padding-left: 60px; */
+            /* background-color: beige; */
+        }
+        section ul li{padding:10px;}
+        
+        footer {
+            /* font-size: 20px; */
+            text-align: center;
+        }
+        .con p{
+            padding: 10px;
+            font-size: 16px;
+            margin: 0%;
+        }
+        
+        span{
+            color: rgb(30, 12, 169);
+            font-size: 17px;
+            font:bold;}
+        .con a{
+            font-size: 18px;
+            padding: 0;
+        }
+    }

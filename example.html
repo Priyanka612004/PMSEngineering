@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 600px;
+            display: flex;
+            justify-content: center;
+        }
+        .info{
+            width: 50%;
+        }
+        .info #infopoints{
+            margin: 20px;
+            font-size: 22px;
+        }
+        .info li{
+            font-size: 25px;
+            padding: 10px;
+        }
+        .imginfo{
+            text-align: center;
+            width: 50%;
+        }
+        .imginfo img{
+            padding-top: 25px;
+            height: 400px;
+            width: 400px;
+        }
+        .imginfo h5{
+            font-size: 30px;
+            margin: 5px;
+        }
+        .imginfo p{
+            font-size: 25px;
+            margin: 5px;
+        }
+
+        @media screen and (max-width:700px) {
+            .main{
+                /* border: 3px solid black; */
+            height: 100%;
+        
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        .info{
+            width: 100%;
+        }
+        .info #infopoints{
+            margin: 10px;
+            padding:10px;
+            font-size: 22px;
+        }
+        .info li{
+            max-width: 280px;
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            font-size: 20px;
+            padding: 10px;
+        }
+        .imginfo{
+            text-align:left;
+            width: 100%;
+        }
+        .imginfo img{
+            border-radius: 14px;
+            padding: 10px;
+            height: 280px;
+            width: 280px;
+        }
+        .imginfo h5{
+            font-size: 24px;
+            margin: 5px;
+        }
+        .imginfo p{
+            font-size: 20px;
+            margin: 5px;
+        } 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="info">
+            <ul id="infopoints">
+                <li>PMS ENGINEERING are dedicated to providing appropriate solutions for Medical and Engineering field with a strong focus on quality products.</li>
+            
+               <li>We pride ourselves on delivering good products and services that exceed our clients' expectations and satisfaction.</li>
+            
+               <li>We strive to build long-term relationships with our clients by providing exceptional customer service and support.</li>
+            
+               <li>We strongly believe in giving back to the community that has supported us throughout our journey. </li>
+               <li>Believe In The Best.</li>
+        </ul>
+        
+        </div>
+        <div class="imginfo">
+            <img src="Image/PMS PHOTO.jpeg" alt="">
+            <h5>Propritor: Pravin Sonawane</h5>
+            <p class="para">Qualification: BE Instrumentation</p>
+            <p class="para">Experience: 23 Years</p>
+ 
+        </div>
+    </div>
+</body>
+</html>
